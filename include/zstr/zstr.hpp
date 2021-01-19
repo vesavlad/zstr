@@ -12,12 +12,12 @@
 #include <fstream>
 #include <sstream>
 #include <zlib.h>
-#include <strict_fstream.hpp>
+#include <zstr/strict_fstream.hpp>
 #include <memory>
 #include <iostream>
 
 #if __cplusplus == 201103L
-#include <zstr_make_unique_polyfill.h>
+#include <zstr/zstr_make_unique_polyfill.h>
 #endif
 
 namespace zstr
